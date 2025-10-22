@@ -9,10 +9,9 @@ st_dir       = os.path.join(base_dir, 'GA')
 st_alt_dir   = os.path.join(base_dir, 'GA_alternative')
 pa_alt_dir   = os.path.join(base_dir, 'PA_alternative')
 
-# ─── LIST OF SEED FILES (exclude 5245551, 10243017) ───────────────────────────
 all_files = sorted(f for f in os.listdir(pa_alt_dir) if f.startswith('results_'))
 filenames = [f for f in all_files
-             if int(f.split('_')[1].split('.')[0]) not in [5245551, 10243017]]
+             if int(f.split('_')[1].split('.')[0]) not in []] #To exclude seeds
 total_seeds = len(filenames)
 print(f"Total files = {total_seeds}")
 
