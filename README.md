@@ -1,4 +1,4 @@
-Code and data for the paper "Demonstrating Real Advantage of Machine-Learning-Enhanced Monte Carlo for Combinatorial Optimization".
+Code and data for the paper "Demonstrating real advantage of machine learning--enhanced Monte Carlo for combinatorial optimization".
 
 - The Code directory contains code to run the optimization algorithms. In particular, the Legacy subdirectory contains supporting code, while Modern/optimization contains the code to perform Simulated, Population and Global Annealing.
 - The Data directory contains the data supporting the results in the paper. The Alpha subdirectory contains the spin interaction files (saved as "`<index_spin_1`> `<index_spin_2`> `<interaction`>") and the Gurobi logs, while the Omega subdirectory contains the results of the runs of the annealings: each row of the file contains a different run and is in the form
@@ -12,12 +12,14 @@ If you use this code, please cite the corresponding paper:
 
 ```bibtex
 
-@misc{delbono2025demonstratingrealadvantagemachinelearningenhanced,
-      title={Demonstrating Real Advantage of Machine-Learning-Enhanced Monte Carlo for Combinatorial Optimization}, 
-      author={Luca Maria Del Bono and Federico Ricci-Tersenghi and Francesco Zamponi},
-      year={2025},
-      eprint={2510.19544},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.dis-nn},
-      url={https://arxiv.org/abs/2510.19544}, 
+@article{del2026demonstrating,
+  title={Demonstrating real advantage of machine learning--enhanced Monte Carlo for combinatorial optimization},
+  author={Del Bono, Luca Maria and Ricci-Tersenghi, Federico and Zamponi, Francesco},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={123},
+  number={19},
+  pages={e2534768123},
+  year={2026},
+  publisher={National Academy of Sciences}
 }
+
